@@ -1,6 +1,7 @@
 def power(base,exp):
-    return (base**exp)
-if__name__="_main_:"
-base= int(input())
-exp= int(input())
-print=("power:",base,exp)
+    return base**exp
+if __name__=="__main__":
+    base=int(input("enter base:"))
+    exp=int(input("enter exp:"))
+    result=power(base,exp)
+    print("power:",result)
